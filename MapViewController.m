@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 #import "YelpDataStore.h"
 #import "YelpAnnotation.h"
+#import "YelpDetailViewController.h"
 #import "UIImageView+AFNetworking.h"
 @import MapKit;
 
@@ -90,8 +91,18 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     [imageView setImageWithURL:[NSURL URLWithString:annotation.dataModel.imageUrl]];
     view.leftCalloutAccessoryView = imageView;
+    view.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    
 }
 
+-(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    YelpAnnotation *annotation = view.annotation;
+    
+    YelpDetailViewController *detailVC = [[YelpDetailViewController alloc]initWithDataModel:annotation.dataModel];
+    [self.navigationController pushViewController:detailVC animated:YES];
+    
+}
 
 
 @end

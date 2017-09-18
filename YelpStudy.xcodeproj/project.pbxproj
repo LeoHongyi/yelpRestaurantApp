@@ -21,6 +21,12 @@
 		F61C47C81F59086C00CC993F /* YelpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F61C47C71F59086C00CC993F /* YelpDataModel.m */; };
 		F61C47CC1F5B4EED00CC993F /* YelpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F61C47CA1F5B4EED00CC993F /* YelpTableViewCell.m */; };
 		F61C47CD1F5B4EED00CC993F /* YelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61C47CB1F5B4EED00CC993F /* YelpTableViewCell.xib */; };
+		F643EE321F6F8081009B72A9 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F643EE311F6F8081009B72A9 /* FilterViewController.m */; };
+		F643EE361F6F88D1009B72A9 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F643EE341F6F88D1009B72A9 /* FilterTableViewCell.m */; };
+		F643EE371F6F88D1009B72A9 /* FilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F643EE351F6F88D1009B72A9 /* FilterTableViewCell.xib */; };
+		F643EE3B1F6F8AB5009B72A9 /* PriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F643EE391F6F8AB5009B72A9 /* PriceTableViewCell.m */; };
+		F643EE3C1F6F8AB5009B72A9 /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F643EE3A1F6F8AB5009B72A9 /* PriceTableViewCell.xib */; };
+		F643EE3F1F6F9490009B72A9 /* YelpFilterDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F643EE3E1F6F9490009B72A9 /* YelpFilterDataModel.m */; };
 		F6910D121F5FA422004B67B8 /* YelpDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F6910D111F5FA422004B67B8 /* YelpDataStore.m */; };
 		F6910D161F5FAEA4004B67B8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6910D151F5FAEA4004B67B8 /* MapViewController.m */; };
 		F6910D1A1F5FC244004B67B8 /* YelpAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6910D191F5FC244004B67B8 /* YelpAnnotation.m */; };
@@ -80,6 +86,16 @@
 		F61C47C91F5B4EED00CC993F /* YelpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpTableViewCell.h; sourceTree = "<group>"; };
 		F61C47CA1F5B4EED00CC993F /* YelpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpTableViewCell.m; sourceTree = "<group>"; };
 		F61C47CB1F5B4EED00CC993F /* YelpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YelpTableViewCell.xib; sourceTree = "<group>"; };
+		F643EE301F6F8081009B72A9 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		F643EE311F6F8081009B72A9 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		F643EE331F6F88D1009B72A9 /* FilterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterTableViewCell.h; sourceTree = "<group>"; };
+		F643EE341F6F88D1009B72A9 /* FilterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewCell.m; sourceTree = "<group>"; };
+		F643EE351F6F88D1009B72A9 /* FilterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterTableViewCell.xib; sourceTree = "<group>"; };
+		F643EE381F6F8AB5009B72A9 /* PriceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceTableViewCell.h; sourceTree = "<group>"; };
+		F643EE391F6F8AB5009B72A9 /* PriceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceTableViewCell.m; sourceTree = "<group>"; };
+		F643EE3A1F6F8AB5009B72A9 /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		F643EE3D1F6F9490009B72A9 /* YelpFilterDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpFilterDataModel.h; sourceTree = "<group>"; };
+		F643EE3E1F6F9490009B72A9 /* YelpFilterDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpFilterDataModel.m; sourceTree = "<group>"; };
 		F6910D101F5FA422004B67B8 /* YelpDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpDataStore.h; sourceTree = "<group>"; };
 		F6910D111F5FA422004B67B8 /* YelpDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpDataStore.m; sourceTree = "<group>"; };
 		F6910D141F5FAEA4004B67B8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -229,6 +245,8 @@
 				F61C47C71F59086C00CC993F /* YelpDataModel.m */,
 				F6910D181F5FC244004B67B8 /* YelpAnnotation.h */,
 				F6910D191F5FC244004B67B8 /* YelpAnnotation.m */,
+				F643EE3D1F6F9490009B72A9 /* YelpFilterDataModel.h */,
+				F643EE3E1F6F9490009B72A9 /* YelpFilterDataModel.m */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -251,6 +269,8 @@
 				F6910D151F5FAEA4004B67B8 /* MapViewController.m */,
 				F6910D1B1F61D472004B67B8 /* YelpDetailViewController.h */,
 				F6910D1C1F61D472004B67B8 /* YelpDetailViewController.m */,
+				F643EE301F6F8081009B72A9 /* FilterViewController.h */,
+				F643EE311F6F8081009B72A9 /* FilterViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -267,6 +287,12 @@
 				F6910D241F61DEF9004B67B8 /* MapTableViewCell.h */,
 				F6910D251F61DEF9004B67B8 /* MapTableViewCell.m */,
 				F6910D261F61DEF9004B67B8 /* MapTableViewCell.xib */,
+				F643EE331F6F88D1009B72A9 /* FilterTableViewCell.h */,
+				F643EE341F6F88D1009B72A9 /* FilterTableViewCell.m */,
+				F643EE351F6F88D1009B72A9 /* FilterTableViewCell.xib */,
+				F643EE381F6F8AB5009B72A9 /* PriceTableViewCell.h */,
+				F643EE391F6F8AB5009B72A9 /* PriceTableViewCell.m */,
+				F643EE3A1F6F8AB5009B72A9 /* PriceTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -348,6 +374,7 @@
 					F61C478A1F56843600CC993F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = L258FGE4SX;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					F61C47A31F56843700CC993F = {
@@ -388,7 +415,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6910D231F61D55E004B67B8 /* DetailViewHeaderUITableViewCell.xib in Resources */,
+				F643EE371F6F88D1009B72A9 /* FilterTableViewCell.xib in Resources */,
 				F61C479E1F56843700CC993F /* LaunchScreen.storyboard in Resources */,
+				F643EE3C1F6F8AB5009B72A9 /* PriceTableViewCell.xib in Resources */,
 				F61C47CD1F5B4EED00CC993F /* YelpTableViewCell.xib in Resources */,
 				F6910D281F61DEF9004B67B8 /* MapTableViewCell.xib in Resources */,
 				F61C479B1F56843700CC993F /* Assets.xcassets in Resources */,
@@ -566,6 +595,7 @@
 				F6910D221F61D55E004B67B8 /* DetailViewHeaderUITableViewCell.m in Sources */,
 				F61C47961F56843600CC993F /* YelpViewController.m in Sources */,
 				F61C47C41F5684B400CC993F /* YelpNetworking.m in Sources */,
+				F643EE321F6F8081009B72A9 /* FilterViewController.m in Sources */,
 				F6910D121F5FA422004B67B8 /* YelpDataStore.m in Sources */,
 				F6910D1D1F61D472004B67B8 /* YelpDetailViewController.m in Sources */,
 				F6910D161F5FAEA4004B67B8 /* MapViewController.m in Sources */,
@@ -573,6 +603,9 @@
 				F61C47931F56843600CC993F /* AppDelegate.m in Sources */,
 				F61C47CC1F5B4EED00CC993F /* YelpTableViewCell.m in Sources */,
 				F61C47C81F59086C00CC993F /* YelpDataModel.m in Sources */,
+				F643EE3F1F6F9490009B72A9 /* YelpFilterDataModel.m in Sources */,
+				F643EE3B1F6F8AB5009B72A9 /* PriceTableViewCell.m in Sources */,
+				F643EE361F6F88D1009B72A9 /* FilterTableViewCell.m in Sources */,
 				F6910D1A1F5FC244004B67B8 /* YelpAnnotation.m in Sources */,
 				F61C47901F56843600CC993F /* main.m in Sources */,
 			);
@@ -718,12 +751,15 @@
 			baseConfigurationReference = ACC2E0A93F73762F9D1D2422 /* Pods-YelpStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L258FGE4SX;
 				INFOPLIST_FILE = YelpStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.YelpStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -732,12 +768,14 @@
 			baseConfigurationReference = 363FB1838AA9D286676D9C3E /* Pods-YelpStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L258FGE4SX;
 				INFOPLIST_FILE = YelpStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.YelpStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

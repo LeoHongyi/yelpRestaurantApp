@@ -10,6 +10,6 @@ typedef void (^RestaurantCompletionBlock)(NSArray <YelpDataModel *>* dataModelAr
 
 + (YelpNetworking *)sharedInstance;
 
-- (void)fetchRestaurantsBasedOnLocation:(CLLocation *)location term:(NSString *)term completionBlock:(RestaurantCompletionBlock)completionBlock;
+- (void)fetchRestaurantsBasedOnLocation:(CLLocation *)location term:(NSString *)term parameters:(NSDictionary *)parameters completionBlock:(RestaurantCompletionBlock)completionBlock;
 
 @end

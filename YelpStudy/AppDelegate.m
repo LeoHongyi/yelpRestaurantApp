@@ -40,11 +40,12 @@
     
     
     MapViewController *mapVC = [[MapViewController alloc] init];
-    mapVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:[UIImage imageNamed:@"map"] tag:0];
-    
+    UINavigationController *nvc2 = [[UINavigationController alloc] initWithRootViewController:mapVC];
+    nvc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image: [UIImage imageNamed:@"map"] tag:0];
     UITabBarController *tbc = [[UITabBarController alloc] init];
     
-    [tbc setViewControllers:@[nvc1,mapVC]];
+    [tbc setViewControllers:@[nvc1,nvc2]];
+
     
     self.window.rootViewController = tbc;
     self.window.backgroundColor = [UIColor whiteColor];
